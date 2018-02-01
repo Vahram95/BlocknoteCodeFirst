@@ -16,3 +16,21 @@ c:\users\labuser34\documents\visual studio 2017\Projects\BlocknotCodeFirst\Block
 c:\users\labuser34\documents\visual studio 2017\Projects\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.csproj.GenerateResource.Cache
 c:\users\labuser34\documents\visual studio 2017\Projects\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.exe
 c:\users\labuser34\documents\visual studio 2017\Projects\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.pdb
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\BlocknotCodeFirst.exe.config
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\BlocknotCodeFirst.exe
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\BlocknotCodeFirst.pdb
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\MainWindow.g.cs
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\App.g.cs
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst_MarkupCompile.cache
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst_MarkupCompile.lref
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\MainWindow.baml
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.g.resources
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.Properties.Resources.resources
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.csproj.GenerateResource.Cache
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.exe
+C:\Users\LabUser34\Source\Repos\BlocknoteCodeFirst\BlocknotCodeFirst\BlocknotCodeFirst\obj\Debug\BlocknotCodeFirst.pdb

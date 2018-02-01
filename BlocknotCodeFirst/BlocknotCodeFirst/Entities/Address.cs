@@ -16,7 +16,5 @@ namespace BlocknotCodeFirst.Entities
         public string Street { get; set; }
         public City City { get; set; }
         public string ZIP { get; set; }
-        /////////
-
     }
 }

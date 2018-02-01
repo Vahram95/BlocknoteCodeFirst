@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlocknotCodeFirst"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Blocknote" Height="700" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Height="auto" VerticalAlignment="Top" >
+            <Menu HorizontalAlignment="Left"  Height="30"   Width="100" VerticalAlignment="Top" Background="Azure" >
+                <MenuItem Height="30" Width="80" Header="New">
+                    <MenuItem Height="30" Width="80" Header="Record"></MenuItem>
+                    <MenuItem Height="30" Width="80" Header="City"></MenuItem>
+                    <MenuItem Height="30" Width="80" Header="Country"></MenuItem>
+                </MenuItem>
+            </Menu>
+        </Grid>
+
+        <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Aqua">
+            
+        </Grid>
+
     </Grid>
 </Window>
