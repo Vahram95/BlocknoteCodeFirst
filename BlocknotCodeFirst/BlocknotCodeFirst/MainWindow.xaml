@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BlocknotCodeFirst"
         mc:Ignorable="d"
-        Title="Blocknote" Height="700" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Blocknote" Height="700" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Height="auto" VerticalAlignment="Top" >
-            <Menu HorizontalAlignment="Left"  Height="30"   Width="100" VerticalAlignment="Top" Background="Azure" >
+            <Menu HorizontalAlignment="Stretch"  Height="30"   VerticalAlignment="Top" Background="Azure" >
                 <MenuItem Height="30" Width="80" Header="New">
                     <MenuItem Height="30" Width="80" Header="Record"></MenuItem>
                     <MenuItem Height="30" Width="80" Header="City"></MenuItem>
@@ -23,7 +23,14 @@
         </Grid>
 
         <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Aqua">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70*"></ColumnDefinition>
+                <ColumnDefinition Width="30*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
             
+            <DataGrid Grid.Column="0" Name="RecordDG" IsReadOnly="True">
+
+            </DataGrid>
         </Grid>
 
     </Grid>

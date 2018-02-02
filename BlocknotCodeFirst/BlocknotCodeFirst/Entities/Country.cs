@@ -10,7 +10,8 @@ namespace BlocknotCodeFirst.Entities
 {
     class Country : Entity
     {
-        [Index(IsUnique = true)]
+        [Index(IsUnique =true)]
+        [StringLength(450)]
         [Required]
         public string Name { get; set; }
 

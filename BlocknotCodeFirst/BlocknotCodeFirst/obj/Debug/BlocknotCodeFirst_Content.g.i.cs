@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resource/icon1.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("notepad_xpo_icon.ico")]
 
 

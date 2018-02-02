@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 namespace BlocknotCodeFirst.Context
 {
     class BlocknoteContext : DbContext
-    {
+    { 
         public BlocknoteContext()
             :base("name=BlocknoteDB")
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BlocknoteContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<BlocknoteContext>());
         }
 
         public virtual DbSet<Record> Records { get; set; }
