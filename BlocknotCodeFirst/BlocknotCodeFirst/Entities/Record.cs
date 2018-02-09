@@ -19,8 +19,7 @@ namespace BlocknotCodeFirst.Entities
 
         [ForeignKey(nameof(Address))]
         public int AddressID { get; set; }
-        public Address Address { get; set; }
+        public virtual Address Address { get; set; }
 
-        //////////////
     }
 }

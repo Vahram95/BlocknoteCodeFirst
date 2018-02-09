@@ -14,7 +14,7 @@ namespace BlocknotCodeFirst.Entities
         [ForeignKey(nameof(City))]
         public int CityID { get; set; }
         public string Street { get; set; }
-        public City City { get; set; }
+        public virtual City City { get; set; }
         public string ZIP { get; set; }
     }
 }

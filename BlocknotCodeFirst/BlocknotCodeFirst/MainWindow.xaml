@@ -24,13 +24,48 @@
 
         <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Aqua">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="70*"></ColumnDefinition>
-                <ColumnDefinition Width="30*"></ColumnDefinition>
+                <ColumnDefinition Width="60*"></ColumnDefinition>
+                <ColumnDefinition Width="40*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            
-            <DataGrid Grid.Column="0" Name="RecordDG" IsReadOnly="True">
 
-            </DataGrid>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="85*"></RowDefinition>
+                    <RowDefinition Height="15*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"></RowDefinition>
+                        <RowDefinition Height="80*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Name="FilterGrid" >
+                        <TextBox Height="20" Width="120"></TextBox>
+                    </Grid>
+
+                    <Grid Grid.Row="1" >
+                        <DataGrid Name="RecordDG" IsReadOnly="True" VerticalAlignment="Stretch">
+
+                        </DataGrid>
+                    </Grid>
+
+                </Grid>
+
+
+                <Grid Grid.Row="1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Height="30" Width="100" Name="btnAdd" HorizontalAlignment="Center">Add</Button>
+                    <Button Grid.Column="1" Height="30" Width="100" Name="btnEdit" HorizontalAlignment="Center">Edit</Button>
+                    <Button Grid.Column="2" Height="30" Width="100" Name="btnDelete" HorizontalAlignment="Center">Delete</Button>
+                </Grid>
+            </Grid>
+
         </Grid>
 
     </Grid>

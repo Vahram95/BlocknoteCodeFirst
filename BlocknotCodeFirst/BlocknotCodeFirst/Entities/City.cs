@@ -16,7 +16,7 @@ namespace BlocknotCodeFirst.Entities
         [Required]
         [ForeignKey(nameof(Country))]
         public int CountryID { get; set; }
-        public Country Country { get; set; }
+        public virtual Country Country { get; set; }
 
     }
 }

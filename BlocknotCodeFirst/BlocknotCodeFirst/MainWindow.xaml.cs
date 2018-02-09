@@ -32,7 +32,7 @@ namespace BlocknotCodeFirst
             
             using (BlocknoteContext context = new BlocknoteContext())
             {
-                context.Countries.Add(new Entities.Country() { Name = "Armenia" });
+                
                 context.SaveChanges();
             }
         }
