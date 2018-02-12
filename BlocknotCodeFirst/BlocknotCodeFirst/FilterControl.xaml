@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="BlocknotCodeFirst.FilterControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BlocknotCodeFirst"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="690">
+    <WrapPanel Width="690">
+        <Label>Name</Label>
+        <TextBox Height="20" Width="100" Name="txtName"></TextBox>
+        <Label>Surename</Label>
+        <TextBox Height="20" Width="100" Name="txtSurename"></TextBox>
+        <Label>Country</Label>
+        <ComboBox Width="100" Name="cmbCountry"></ComboBox>
+        <Label>City</Label>
+        <ComboBox Width="100" Name="cmbCity"></ComboBox>
+        <Button Name="btnSearch" Width="80" HorizontalAlignment="Right" Margin="20,0,0,0">Search</Button>
+    </WrapPanel>
+</UserControl>

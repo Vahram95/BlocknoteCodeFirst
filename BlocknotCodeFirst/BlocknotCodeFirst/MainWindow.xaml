@@ -24,8 +24,8 @@
 
         <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Aqua">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="60*"></ColumnDefinition>
-                <ColumnDefinition Width="40*"></ColumnDefinition>
+                <ColumnDefinition Width="70*"></ColumnDefinition>
+                <ColumnDefinition Width="30*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="0">
@@ -36,12 +36,12 @@
 
                 <Grid Grid.Row="0">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="20*"></RowDefinition>
-                        <RowDefinition Height="80*"></RowDefinition>
+                        <RowDefinition Height="10*"></RowDefinition>
+                        <RowDefinition Height="90*"></RowDefinition>
                     </Grid.RowDefinitions>
 
                     <Grid Grid.Row="0" Name="FilterGrid" >
-                        <TextBox Height="20" Width="120"></TextBox>
+                        <local:FilterControl Height="30" VerticalAlignment="Center"></local:FilterControl>
                     </Grid>
 
                     <Grid Grid.Row="1" >
